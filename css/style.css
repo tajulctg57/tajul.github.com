@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    min-height: 50px;
+    background-color: #4169A7; 
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+    
+}
+.login{
+    width: 80%;
+    float: right;
+    margin: 17px auto;
+}
+.login-form{
+    float: left;
+    margin left: 10px;
+}
+.login-form2{
+    float: left;
+    margin-left: 10px;
+}
+.login-form4{
+    float: right;
+    margin-left: 10px;
+    clear: both;
+    
+    
+}
+input[type="button"]{
+    background-color: #365899;
+    
+}
+.container{
+    width: 100%;
+    min-height: 600px;
+    background-color:#F4F5F9; 
+}
+.fb{
+    float: left;
+    width: 50%;
+    margin: 30px auto;
+}
+.sign-up{
+    width: 50%;
+    float: right;
+    
+}
+.form-group{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    clear: both;
+}
+.radio_padding{
+    padding-top: 10px;
+}
+.width_divided{
+    width: 22.50%;
+}
+.width_full{
+    width: 47%;
+}
+.input_style{    
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    padding-left: 5px;font-size: 18px;
+}
+::-webkit-input-placeholder{
+    color: #999999;
+    font-size: 18px;
+    
+}
+::-moz-placeholder{
+    color: #999999;
+    font-size: 18px;
+}
+
+.date{height: 35px;
+    padding: 6px;float: left}
+
+:-moz-placeholder{
+    color: #999999;
+    font-size: 18px;
+}
+:-ms-placeholder{
+    color: #999999;
+    font-size: 18px;
+}
+
+input[type="submit"]{
+        background-color: #68A254;
+    color: white;
+    height: 39px;
+    width: 200px;
+    font-size: 20px;
+    border: 1px solid #3B6E22;
+    border-radius: 3px;
+}
